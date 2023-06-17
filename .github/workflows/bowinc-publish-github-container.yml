@@ -1,0 +1,25 @@
+name: Bowinc Publish to GitHub Container Registry
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+    runs-on: ubuntu-latest
+    strategy:
+      steps:
+      - uses: actions/checkout@master
+      - name: Build PHP BOWINC CLI and publish to GitHub Registry
+        uses: elgohr/Publish-Docker-Github-Action@v5
+        with:
+          name: aohycent/bowinc-php
+          tags: bowinc-cli
+          username: ${{ secrets.GHCR_USERNAME }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: ghcr.io
+          dockerfile: Dockerfile
+
+
+
