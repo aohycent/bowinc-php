@@ -1,0 +1,15 @@
+name: BOWINC PHP
+
+description: An action for BOWINC PHP project with common extensions.
+
+branding:
+
+  icon: cpu
+
+  color: gr
+
+runs:
+
+  using: docker
+
+  image: Dockerfile
