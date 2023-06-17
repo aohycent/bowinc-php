@@ -1,0 +1,19 @@
+name: Testrun
+
+on: [push]
+
+jobs:
+
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: PHP testrun actions
+
+        uses: aohycent/bowinc-php@master
+
+        with:
+
+          args: php -v && php -
