@@ -1,10 +1,10 @@
-name: BOWINC PHP
+name: BOWINC php
 
 description: An action for BOWINC PHP project with common extensions.
 
 branding:
 
-  icon: cpu
+  icon: bowtie
 
   color: gr
 
