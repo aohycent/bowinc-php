@@ -12,7 +12,7 @@ jobs:
 
       - name: PHP testing actions
 
-        uses: aohycent/bowinc-php
+        uses: aohycent/bowinc-php@v0.1.0
 
         with:
 
