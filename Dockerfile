@@ -1,4 +1,4 @@
-FROM ghcr.io/aohycent
+FROM ghcr.io/aohycent/xdebug@main
 
 LABEL org.opencontainers.image.source="https://github.com/aohycent/bowinc-php" \
 
