@@ -6,10 +6,10 @@ on:
       - master
 
 jobs:
-
+   
+   latest-cli:
     runs-on: ubuntu-latest
-    strategy:
-      steps:
+    steps:
       - uses: actions/checkout@master
       - name: Build PHP BOWINC CLI and publish to GitHub Registry
         uses: elgohr/Publish-Docker-Github-Action@v5
