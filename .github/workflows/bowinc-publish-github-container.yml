@@ -16,7 +16,7 @@ jobs:
         with:
           name: aohycent/bowinc-php
           tags: cli
-          username: ${{ secrets.GHCR_USERNAME }}
+          username: aohycent
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
           dockerfile: Dockerfile
