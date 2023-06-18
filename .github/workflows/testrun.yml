@@ -10,9 +10,9 @@ jobs:
 
     steps:
 
-      - name: PHP testing actions
+      - name: BOWINC php actions
 
-        uses: aohycent/bowinc-php@v0.1.0
+        uses: aohycent/bowinc-php@master
 
         with:
 
