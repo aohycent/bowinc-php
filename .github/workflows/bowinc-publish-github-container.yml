@@ -15,7 +15,7 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: aohycent/bowinc-php
-          tags: bowinc-cli
+          tags: cli
           username: ${{ secrets.GHCR_USERNAME }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
