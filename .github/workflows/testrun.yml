@@ -12,7 +12,7 @@ jobs:
 
       - name: BOWINC php actions
 
-        uses: aohycent/bowinc-php@master
+        uses: aohycent/bowinc-php@main
 
         with:
 
