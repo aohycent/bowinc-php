@@ -1,4 +1,4 @@
-name: Testing
+name: Testrun
 
 on: [push]
 
@@ -12,7 +12,7 @@ jobs:
 
       - name: PHP testing actions
 
-        uses: mileschou/docker-php-tester@master
+        uses: aohycent/bowinc-php@master
 
         with:
 
