@@ -3,14 +3,14 @@ name: Bowinc Publish to GitHub Container Registry
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
    
    latest-cli:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Build PHP BOWINC CLI and publish to GitHub Registry
         uses: elgohr/Publish-Docker-Github-Action@v5
         with:
